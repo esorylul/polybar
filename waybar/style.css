@@ -1,0 +1,88 @@
+window#waybar {
+	background: rgba(43, 48, 59, 0.5);
+	color: #ffffff;
+}
+
+#window {
+	font-family: Source Code Pro,Source Han Serif CN;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 0 10px;
+}
+
+#workspaces button {
+	font-family: SauceCodePro Nerd Font,Source Code Pro;
+	font-size: 16px;
+	padding: 0 13px 0 5px;
+	border-radius: 0%;
+	color: white;
+	border-bottom: 3px solid transparent;
+}
+
+#workspaces button.focused {
+	background: #3498db;
+}
+
+#tray {
+	background-color: #e74c3c;
+	padding: 0 5px;
+}
+
+#mode, #clock, #battery {
+	padding: 0 10px;
+	margin: 0 5px;
+}
+
+#mode {
+	background: #64727D;
+	border-bottom: 3px solid white;
+}
+
+#clock {
+	font-family: SauceCodePro Nerd Font,Source Code Pro;
+	font-size: 16px;
+	margin: 0;
+	background-color: #64727D;
+}
+
+#pulseaudio {
+	font-family: SauceCodePro Nerd Font,Source Code Pro;
+	font-size: 16px;
+	padding: 0 15px 0 8px;
+	background: #8e44ad ;
+}
+
+#cpu {
+	font-family: SauceCodePro Nerd Font,Source Code Pro;
+	font-size: 16px;
+	padding: 0 15px 0 8px;
+	background: #16a085;
+}
+
+#memory {
+	font-family: SauceCodePro Nerd Font,Source Code Pro;
+	font-size: 16px;
+	padding: 0 15px 0 8px;
+	background: #f39c12;
+}
+
+#disk{
+	font-family: SauceCodePro Nerd Font,Source Code Pro;
+	font-size: 16px;
+	padding: 0 10px 0 8px;
+	background: #34495e;
+}
+
+#network{
+	font-family: SauceCodePro Nerd Font,Source Code Pro;
+	font-size: 16px;
+	padding: 0 15px 0 8px;
+	background: #27ae60;
+}
+
+#temperature{
+	font-family: SauceCodePro Nerd Font,Source Code Pro;
+	font-size: 16px;
+	padding: 0 15px 0 8px;
+	background: #e74c3c;
+}

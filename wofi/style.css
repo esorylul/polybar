@@ -1,0 +1,44 @@
+window {
+	background-color: transparent;
+}
+
+#input {
+	border-bottom: 2px solid #51ceff;
+	border-right: 1px solid #51ceff;
+	border-left: 1px solid #51ceff;
+	border-top: 1px solid #51ceff;
+	background-color: #121212;
+	font-family: SourceCodePro;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	border-radius: 0;
+}
+
+#inner-box {
+	color: white;
+	background-color: #121212;
+}
+
+#outer-box {
+	background-color: #121212;
+	border: 2px solid #51ceff;
+}
+
+#scroll {
+	background-color: #121212;
+}
+
+#text {
+	font-family: SourceCodePro;
+	font-weight: bold;
+	margin: 0 auto;
+	font-size: 16px;
+	color: white;
+}
+
+#entry:selected {
+	background-color: #51ceff;
+	border-left: 2px solid #51ceff;
+	border-right: 2px solid #51ceff;
+}
